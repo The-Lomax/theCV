@@ -6,7 +6,7 @@
 		<title>Test App</title>
 		<script
 		id="sap-ui-bootstrap"
-		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+		src="https://sapui5.hana.ondemand.com/1.75.0/resources/sap-ui-core.js"
 		data-sap-ui-theme="sap_bluecrystal"
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
@@ -17,14 +17,8 @@
 		
 		<script>
 			sap.ui.getCore().attachInit(function(){
-				/*
-				var oImage = new sap.m.Image({
-					src: "https://i1.wp.com/lincolnshirereporter.co.uk/wp-content/uploads/2020/01/pug-dog.jpg"
-				}).placeAt("content");
-				oImage.setHeight("400px");
-				*/
-				sap.ui.xmlview({
-					viewName: "opensap.theCV.view.App"
+				new sap.ui.core.ComponentContainer({
+					name : "opensap.theCV"
 				}).placeAt("content");
 			});
 		</script>
