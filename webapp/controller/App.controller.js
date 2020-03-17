@@ -53,8 +53,8 @@ sap.ui.define([
 						"<p>• I’ve been responsible for providing bespoke 2nd line technical support to customers over the phone, both residential and businesses.</p>" +
 						"<p>• I’ve ensured to professionally handle customer complaints and provide the highest standard of customer service.</p>",
 						
-				contact : "<h3><strong>E-mail:</strong> office@itlomax.co.uk</h3>" +
-						  "<p><h3><strong>Phone: </strong>+44 7467 540997</h3></p>" +
+				contact : "<h3><strong>E-mail:</strong></h3>" +
+						  "<p><h3><strong>Phone: </strong></h3></p>" +
 						  "<p><h3><strong>LinkedIn:</strong> <a href=\"//www.linkedin.com/in/krzysztof-beszterda-210284a3/\">click here</a></h3></p>",
 						  
 				skills : "<h3><strong>Additional Skills</strong></h3>" +
