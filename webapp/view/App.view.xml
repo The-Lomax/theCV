@@ -4,7 +4,8 @@
 	xmlns:core="sap.ui.core" 
 	xmlns:l="sap.ui.layout" 
 	xmlns:f="sap.ui.layout.form"
-	xmlns="sap.m">
+	xmlns="sap.m"
+	controllerName="opensap.theCV.controller.App">
 	<App>
 		<pages>
 			<Page title="Krzysztof Beszterda Curriculum Vitae">
